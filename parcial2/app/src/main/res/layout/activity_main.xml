@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgB_Gato"
+        android:layout_width="219dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="47dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgBTortuga"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbPerro"
+        app:srcCompat="@mipmap/gato" />
+
+    <ImageView
+        android:id="@+id/imgbPerro"
+        android:layout_width="196dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgB_Gato"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/pug" />
+
+    <ImageView
+        android:id="@+id/imgBPerico"
+        android:layout_width="226dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgBTortuga"
+        app:srcCompat="@mipmap/img_cuidados_del_periquito_australiano_803_orig" />
+
+    <ImageView
+        android:id="@+id/imgBTortuga"
+        android:layout_width="226dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgBPerico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgB_Gato"
+        app:srcCompat="@mipmap/tor" />
+</androidx.constraintlayout.widget.ConstraintLayout>
